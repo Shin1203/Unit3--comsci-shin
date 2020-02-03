@@ -45,3 +45,20 @@ INPUT PRINT AND NUMBERS
   print("The previous number for the number", str(a) ,"is", str(c),)
 
     ``
+    
+    Two Timestamps
+    ``
+    # Read an integer:
+    hour1 = int(input())
+    minute1 = int(input())
+    second1 = int(input())
+    hour2 = int(input())
+    minute2 = int(input())
+    second2 = int(input())
+    total1 = int(hour1 * 3600 + minute1 * 60 + second1)
+    total2 = int(hour2 * 3600 + minute2 * 60+ second2)
+    print(total2 - total1)
+
+    ``
+    
+INTEGER AND FLOAT NUMBERS
