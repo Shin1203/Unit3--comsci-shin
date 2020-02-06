@@ -62,3 +62,30 @@ INPUT PRINT AND NUMBERS
     ``
     
 INTEGER AND FLOAT NUMBERS
+  Last Digit of Int
+  ``
+  ``
+  
+  Tens Digit
+  ``
+  number = int(input())
+d = int()
+counter = number
+while counter > 0:
+    counter = ( counter // 10 )
+    d = d+1
+
+
+
+if d == 2:
+    d = 0
+if d == 3:
+    d = 1
+while d > 2:
+    d = d-1
+if number > 9:
+    number = str(number)
+    print (number[d])
+else:    
+    print (0)
+  ``
