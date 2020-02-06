@@ -64,6 +64,14 @@ INPUT PRINT AND NUMBERS
 INTEGER AND FLOAT NUMBERS
   Last Digit of Int
   ``
+  # Read an integer:
+num = int(input())
+num = (num % 10)
+
+
+print(num)
+
+
   ``
   
   Tens Digit
@@ -89,3 +97,5 @@ if number > 9:
 else:    
     print (0)
   ``
+  
+  
