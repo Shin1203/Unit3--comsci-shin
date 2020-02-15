@@ -98,4 +98,14 @@ else:
     print (0)
   ``
   
-  
+  Car Route
+  ``
+  N = int(input())
+M = int(input())
+
+
+if (M % N == 0):
+    print(M/N)
+else:
+    print(M//N+1)
+    ``
