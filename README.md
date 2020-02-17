@@ -2,6 +2,10 @@
 Unit 3 of computer science HL- Python
 **Planning**
 ------------
+The Client- Tech Crew Club Member Nabill Nuqman
+The problem- 
+
+Developer plan- client will be involved in the entire process of development, giving feedback, wants complaints etc. 
 
 
 **Development**
