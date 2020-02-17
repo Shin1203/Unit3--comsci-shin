@@ -8,7 +8,7 @@ Proposed Solution- Develop an app for the client which will act as a database, a
 
 
 **Success Criteria:**
-1.)Exclusively for tech crew members- login password
+1.)Exclusively for tech crew members- login/password
 2.) The app can properly store info on which items tech crew has/does not have, the information here can be easily accessed and edited by user
 3.) The app allows for a user to record when equipment have been used in the past, information is neatly stored and easily accessed
 4.) Condition of each item is also stored and able to be edited in app
