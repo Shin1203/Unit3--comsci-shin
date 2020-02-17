@@ -15,3 +15,6 @@ Regostration
 4.)generate salt
 5.)use the hash lib function
 6.) store info user_dict
+
+In your role of a developer: read the client statement and write a draft version for the Criteria for Success in order of priority: most to least important.  Measurable, Specific, Non-trivial
+
