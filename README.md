@@ -3,7 +3,8 @@ Unit 3 of computer science HL- Python
 **Planning**
 ------------
 The Client- Tech Crew Club Member Nabill Nuqman
-The problem- 
+The Problem- As a member of the tech crew, Nabill often suffers due to the lack of keeping track of equipment, and the club struggles to keep track of things, and also loses equipment. They need a way to keep inventory and data on their equipment.
+
 
 Developer plan- client will be involved in the entire process of development, giving feedback, wants complaints etc. 
 
