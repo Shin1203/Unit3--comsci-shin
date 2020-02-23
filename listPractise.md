@@ -28,3 +28,19 @@ for i in range(len(a)):
          print(a[i])
 ```
 
+Neighbors of the same sign
+```
+a = [int(s) for s in input().split()]
+for i in range(len(a)):
+    if a[i] > 0:
+        if a[a[i]-1] > 0:
+            print(a[i]-1)
+        if a[a[i]+1] > 0:
+            print(a[i]+1)
+    if a[i] < 0:
+        if a[a[i]-1] < 0:
+            print(a[i]-1)
+        if a[a[i]+1] < 0:
+            print(a[i]+1)
+```
+
