@@ -31,3 +31,12 @@ Find one profession where software is used
 2/19/2020
 -Went over graphing in python with matplotlib.pyplot in class
 -bank account program
+
+2/24/2020
+Procedural programming is what we have been doing so far.
+Object Oriented programming (OOP) -revolves around objects which can store data structures, that record properties and behaviors of objects.
+Each thing stored in an object is an instance of some class
+These classes can be created by user, strings, lists, integers are examples of preset classes by python. 
+
+
+
