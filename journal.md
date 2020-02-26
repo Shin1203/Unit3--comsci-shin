@@ -37,6 +37,11 @@ Procedural programming is what we have been doing so far.
 Object Oriented programming (OOP) -revolves around objects which can store data structures, that record properties and behaviors of objects.
 Each thing stored in an object is an instance of some class
 These classes can be created by user, strings, lists, integers are examples of preset classes by python. 
+-Finished OOP worksheet
+-Sketched rough user interface for app
 
+2/26/2020
+-Installed qt designer to make interface
+-Reviewed Class data structure with Crypto currency program
 
 
