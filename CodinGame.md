@@ -6,7 +6,7 @@
 Create a list, mt_list and append every input in the for loop
 max(mt_list) represents the biggest number or tallest mountain in the list, doing print(mtlist.index(max(mt_list))) will print the index of the biggest number, a.k.a the mountan number to shoot
 
-``
+```
 
 import sys
 import math
@@ -31,6 +31,6 @@ while True:
     # To debug: print("Debug messages...", file=sys.stderr)
  
     # The index of the mountain to fire on.
-``
+```
     
     
