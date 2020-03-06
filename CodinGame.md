@@ -16,7 +16,7 @@ Each iteration represents a turn of the game
  The inputs you are given are automatically updated according to your last actions.
 
 
-# game loop
+#game loop
 
 while True:
     mt_list = []
