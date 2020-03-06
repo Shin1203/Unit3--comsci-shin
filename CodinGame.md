@@ -11,14 +11,14 @@ max(mt_list) represents the biggest number or tallest mountain in the list, doin
 import sys
 import math
 
-#The while loop represents the game.
-#Each iteration represents a turn of the game
-#where you are given inputs (the heights of the mountains)
-#and where you have to print an output (the index of the mountain to fire on)
-#The inputs you are given are automatically updated according to your last actions.
+# The while loop represents the game.
+# Each iteration represents a turn of the game
+# where you are given inputs (the heights of the mountains)
+# and where you have to print an output (the index of the mountain to fire on)
+# The inputs you are given are automatically updated according to your last actions.
 
 
-#game loop
+# game loop
 
 while True:
     mt_list = []
