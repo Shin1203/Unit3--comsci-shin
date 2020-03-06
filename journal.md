@@ -44,4 +44,7 @@ These classes can be created by user, strings, lists, integers are examples of p
 -Installed qt designer to make interface
 -Reviewed Class data structure with Crypto currency program
 
-
+3/6/2020
+-Practising python with codingames- learned to use .index and max() combined to print index of biggest number in a list
+-After getting user feedback, updated to final version of user interface of app.
+-updated criterion A and github repository
