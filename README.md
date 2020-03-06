@@ -32,7 +32,7 @@ Prototype 1 for user interface on Qtdesigner
 -Main Menu/login
 ![Mainmenu](Mainwindow.png.png)
 -List view of equipment
-![secondmenu](secondwindow.png.png)
+![secondmenu](seconwindow.png.png)
 -Equipment information page
 ![thirdmenu](thirdwindow.png.png)
 
