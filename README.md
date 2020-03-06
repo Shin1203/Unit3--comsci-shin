@@ -38,8 +38,9 @@ Prototype 1 for user interface on Qtdesigner
 -Equipment information page
 ![thirdmenu](thirdwindow.png.png)
 
-USER FEEDBACK
+**USER FEEDBACK**
 -Add "Functioning?" descriptor in table view of equipments, as well in equipment information view
+
 -Create new "events" window, where upcoming events and previous events can be listed, store information of equipment too.
 
 In your role of a developer: read the client statement and write a draft version for the Criteria for Success in order of priority: most to least important.  Measurable, Specific, Non-trivial
