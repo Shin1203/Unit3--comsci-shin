@@ -11,6 +11,8 @@ Tech Crew Club Member Nabill Nuqman
 As a member of the tech crew, Nabill often suffers due to the lack of keeping track of equipment, and the club struggles to keep track of things, and also loses equipment. They need a way to keep inventory and data on their equipment.
 ## Proposed Solution
 - Develop an app for the client which will act as a database, and will store all the tech crew equipment information, allowing users to edit information, as well as access it with ease.
+-The app will fill all requirements for client, and make checking inventory of tech crew easy, as well as being able to record and store information
+-Python will be used for the app, as it is a versatile language and is compatible with an interface designer app- qt designer, and will allow for importing functions into the app.
 ## Success Criteria:
 1.)Exclusively for tech crew members- login/password
 2.) The app can properly store info on which items tech crew has/does not have, the information here can be easily accessed and edited by user
