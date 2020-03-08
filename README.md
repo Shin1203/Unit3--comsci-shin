@@ -5,10 +5,13 @@ Unit 3 of computer science HL- Python
 # Criteria A
 
 
-## The Client- Tech Crew Club Member Nabill Nuqman
-**The Problem**- As a member of the tech crew, Nabill often suffers due to the lack of keeping track of equipment, and the club struggles to keep track of things, and also loses equipment. They need a way to keep inventory and data on their equipment.
-**Proposed Solution**- Develop an app for the client which will act as a database, and will store all the tech crew equipment information, allowing users to edit information, as well as access it with ease.
-**Success Criteria:**
+## The Client- 
+Tech Crew Club Member Nabill Nuqman
+## The Problem 
+As a member of the tech crew, Nabill often suffers due to the lack of keeping track of equipment, and the club struggles to keep track of things, and also loses equipment. They need a way to keep inventory and data on their equipment.
+## Proposed Solution
+- Develop an app for the client which will act as a database, and will store all the tech crew equipment information, allowing users to edit information, as well as access it with ease.
+## Success Criteria:
 1.)Exclusively for tech crew members- login/password
 2.) The app can properly store info on which items tech crew has/does not have, the information here can be easily accessed and edited by user
 3.) The app allows for a user to record when equipment have been used in the past, information is neatly stored and easily accessed
