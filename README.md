@@ -2,7 +2,7 @@
 Unit 3 of computer science HL- Python
 **Planning**
 ------------
-# Criteria A
+# Criteria A- Planning
 
 
 ## The Client- 
@@ -22,7 +22,7 @@ As a member of the tech crew, Nabill often suffers due to the lack of keeping tr
 6.) App should be easy to use, and only requires simple instructions
 Developer plan- client will be involved in the entire process of development, giving feedback, wants complaints etc. 
 
-# Development
+# Criteria B- Development
 ---------------
 User login feature steps
 
