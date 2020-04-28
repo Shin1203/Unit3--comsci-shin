@@ -38,7 +38,7 @@ def exitApp(self):
 -To do so, make a variable which equals the input textbox.
 
 -e.g ``email = self.email.input``
-
+ 
 
 ## Function Hash_Password
 What is hash?
@@ -85,3 +85,24 @@ def verify_password(stored_password, provided_password):
     return pwdhash == stored_password
 
 ```
+
+
+## Storing Register User information.
+-A function will be created to store registration information
+
+-When "register" button is pressed, and user information is entered, email and password are hashed with the hashpassword function and stored in a textfile.
+
+-This textfile is called "Password.txt" and stores the hashed email+password row by row.
+
+-Code is below
+```
+    def store(self):
+        email = self.email_in.text()
+        password = self.regpassword_in.text()
+        print("Hashing", email + password)
+        msg = hash_password(email + password)
+        with open("Password.txt", "a") as password_file:
+            password_file.write("{}\n".format(msg))
+        self.close()
+```
+
