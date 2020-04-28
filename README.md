@@ -14,12 +14,16 @@ As a member of the tech crew, Nabill often suffers due to the lack of keeping tr
 -The app will fill all requirements for client, and make checking inventory of tech crew easy, as well as being able to record and store information
 -Python will be used for the app, as it is a versatile language and is compatible with an interface designer app- qt designer, and will allow for importing functions into the app.
 ## Success Criteria:
-1.)Exclusively for tech crew members- login/password
+1.)Exclusively for tech crew members- login/password. The user can register an email, username, password which is then stored securely and can be used to log in.
+
 2.) The app can properly store info on which items tech crew has/does not have, the information here can be easily accessed and edited by user
+
 3.) The app allows for a user to record when equipment have been used in the past, information is neatly stored and easily accessed
+
 4.) Condition of each item is also stored and able to be edited in app
-5.) Which equipment needs to be used at certain event is stored
+
 6.) App should be easy to use, and only requires simple instructions
+
 Developer plan- client will be involved in the entire process of development, giving feedback, wants complaints etc. 
 
 # Criteria B- Development
