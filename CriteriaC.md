@@ -32,4 +32,12 @@ def exitApp(self):
   sys.exit(0)
 ```
 
+## Reading text inputs from user.
+-Reading text inputs from the user is a very simple process.
+
+-To do so, make a variable which equals the input textbox.
+
+-e.g ``email = self.email.input``
+
+
 
