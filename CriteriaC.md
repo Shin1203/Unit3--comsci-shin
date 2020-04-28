@@ -106,3 +106,19 @@ def verify_password(stored_password, provided_password):
         self.close()
 ```
 
+## Try_login function
+-This function is used for logging in, and is triggered when user enters email and password and clicks the "login" button on the login menu.
+
+-First, the password entered in the text box will be stored as "enteredpass"
+
+-Second, the "Password.txt" file will be opened as "passwordfile"
+
+-Third, a for loop iterates through every row of the passwordfile, this means the loop will run for every stored password.
+
+-With every iteration of the for loop, the function "verify_password" will be called with the stored password and entered password as arguments. 
+
+-If the verify password function returns true, the for loop will break and the login menu will close- the login was succesful
+
+-If the verify password function does not return true for any of the stored passwords, the login menu will remain up, and error message will be displayed.
+
+**I ran into a problem while coding this section- the function verify_password, when called within the try_login function would crash the program with no error message. 
