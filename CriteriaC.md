@@ -13,4 +13,21 @@
 
 -The main menu is not a dialog class, it is class Ui_MainWindow, and so the code reads ``from mainmenu import Ui_MainWindow as mainW``
 
-## 
+
+
+## Adding functionality of buttons.
+-To add functionality of a button, two steps must be taken.
+
+-Step one, under the window where the button is located, attach a function to when the button is clicked-e.g``self.buttonName.clicked.connect(functionName)``
+
+-Step two, define the function connected to the button, this is where the functionality of the button will be.
+
+-Whenever the button is pressed, the function will be called and carry out the process.
+
+-As an example, the code for the "exit" button looks like this
+``
+# under class window, after __init__
+  self.exit_button.clicked.connect(self.exitApp)
+def exitApp(self):
+  sys.exit(0)
+  ``
