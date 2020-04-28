@@ -22,6 +22,8 @@ As a member of the tech crew, Nabill often suffers due to the lack of keeping tr
 
 4.) Condition of each item is also stored and able to be edited in app
 
+5.) All information in the app should be neatly arranged in a table 
+
 6.) App should be easy to use, and only requires simple instructions
 
 Developer plan- client will be involved in the entire process of development, giving feedback, wants complaints etc. 
