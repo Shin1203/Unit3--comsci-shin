@@ -30,4 +30,5 @@ Registration
 In your role of a developer: read the client statement and write a draft version for the Criteria for Success in order of priority: most to least important.  Measurable, Specific, Non-trivial
 
 ## Prototype 2 for user interface on Qtdesigner
-
+![login](actuallogin.png)
+![registration](loginmenuprot2.png)
