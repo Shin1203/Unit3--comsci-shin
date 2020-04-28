@@ -40,4 +40,8 @@ def exitApp(self):
 -e.g ``email = self.email.input``
 
 
+## Function Hash_Password
+
+
+
 
