@@ -32,9 +32,13 @@ In your role of a developer: read the client statement and write a draft version
 ## Prototype 2 for user interface on Qtdesigner
 
 -A new registration window has been created, and registration button has been added to the login screen.
+
 -In the main menu, "functionality" has been added to the table view as a column
+
 -The login menu has been changed from a mainmenuui to a Qdialog, 
+
 -Main menu has been changed to mainmenuui 
+
 -All widgets have been named to mark their functionality and which page they are on to make coding easier.
 
 ![login](actuallogin.png)
