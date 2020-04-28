@@ -11,7 +11,7 @@ Registration
 5.)use the hash lib function
 6.) store info user_dict
 
-Prototype 1 for user interface on Qtdesigner
+## Prototype 1 for user interface on Qtdesigner
 -Main Menu/login
 ![Mainmenu](Mainwindow.png.png)
 -List view of equipment
@@ -29,5 +29,5 @@ Prototype 1 for user interface on Qtdesigner
 
 In your role of a developer: read the client statement and write a draft version for the Criteria for Success in order of priority: most to least important.  Measurable, Specific, Non-trivial
 
-
+## Prototype 2 for user interface on Qtdesigner
 
