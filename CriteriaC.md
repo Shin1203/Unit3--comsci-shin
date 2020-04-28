@@ -25,9 +25,9 @@
 -Whenever the button is pressed, the function will be called and carry out the process.
 
 -As an example, the code for the "exit" button looks like this
-``
+```
 # under class window, after __init__
   self.exit_button.clicked.connect(self.exitApp)
 def exitApp(self):
   sys.exit(0)
-``
+```
