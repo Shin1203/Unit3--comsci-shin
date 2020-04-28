@@ -41,7 +41,7 @@ def exitApp(self):
 
 
 ## Function Hash_Password
-**What is hash?
+What is hash?
 A hash function will take an input value and create a different output value. A hash function will always output the same number of digits, an input will always provide the same output. Hash functions can be used to encrypt then decrypt data. In my case, I will be using it to store password information.
 
 ### Coding a hash function
