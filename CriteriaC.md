@@ -57,6 +57,26 @@ A hash function will take an input value and create a different output value. A 
 
 -Below is the code
 ```
+def hash_password(password):
+    salt = hashlib.sha256(os.urandom(60)).hexdigest().encode("ascii")
+    pwdhash = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, 100000)
+    pwdhash = binascii.hexlify(pwdhash)
+    return (salt + pwdhash).decode("ascii")
+
+
+```
+
+## verifying a password
+-To verify an entered passwords with a stored password, there are three steps
+
+-First, the stored password must be retrieved, From this the salt(First 64th elements) and the password(Everything else) are seperated.
+
+-Secondly, the entered password is hashed in the same process using the salt retrieved from the stored password.
+
+-Finally, if the resulting hashed password is the same as the stored password(remember to seperate stored salt from password), then return True- the password is correct.
+
+-Below is the code
+```
 def verify_password(stored_password, provided_password):
     salt = stored_password[:64]
     stored_password = stored_password[64:-1]
