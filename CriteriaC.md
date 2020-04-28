@@ -47,11 +47,16 @@ A hash function will take an input value and create a different output value. A 
 ### Coding a hash function
 -This function will take a password as an argument, and hash it.
 
--The first step is to create a salt, which is an additional input that will go together with the password to get hashed. The salt provides extra security against attacks. First, 60 bytes of random infromation is created by a random function. Then, that 60 bytes of information is hashed using SHA-2 into 64 bytes of information. Finally, that 64 bytes of information is converted into characters of the ASCII alphabet, every byte becoming one ASCII character and creating a total of 64 ASCII characters as the string salt.
+-The first step is to create a salt, which is an additional input that will go together with the password to get hashed. The salt provides extra security against attacks, this will allow for the same inputs to have a different output with different salts. First, 60 bytes of random infromation is created by a random function. Then, that 60 bytes of information is hashed using SHA-256 into 64 bytes of information. Finally, that 64 bytes of information is converted into characters of the ASCII alphabet, every byte becoming one ASCII character and creating a total of 64 ASCII characters as the string salt.
 
 ``salt = hashlib.sha256(os.urandom(60)).hexdigest().encode("ascii")``
 
- 
+-The second step is to hash the entered password, with the salt. A function is used, that will intake the hash function,the entered password, previously generated salt, and the number of randomizations. SHA512 will be used to hash the password and salt, as it is safe. Utf-8 will be used to encode the entered password, as ASCII can only represent 256 characters, while utf-8 is capable of using any character.
 
+``pwdhash = hashlib.pbkdf2_hmac("sha256", password.encode("utf-8"), salt, 100000)``
+
+-Thirdly, the hash value created with the password and the salt are converted into hexadecimal 
+
+-Finally the earlier salt value is added with the 
 
 
