@@ -1,4 +1,5 @@
-[criteriaB](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaB.md)
+# [criteriaB](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaB.md)
+# [criteriaC](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaC.md)
 # Criteria A- Planning
 
 
