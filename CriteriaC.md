@@ -49,8 +49,9 @@ A hash function will take an input value and create a different output value. A 
 
 -The first step is to create a salt, which is an additional input that will go together with the password to get hashed. The salt provides extra security against attacks. First, 60 bytes of random infromation is created by a random function. Then, that 60 bytes of information is hashed using SHA-2 into 64 bytes of information. Finally, that 64 bytes of information is converted into characters of the ASCII alphabet, every byte becoming one ASCII character and creating a total of 64 ASCII characters as the string salt.
 
--``salt = hashlib.sha256(os.urandom(60)).hexdigest().encode("ascii")``
+``salt = hashlib.sha256(os.urandom(60)).hexdigest().encode("ascii")``
 
+ 
 
 
 
