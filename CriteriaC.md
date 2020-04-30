@@ -121,5 +121,10 @@ def verify_password(stored_password, provided_password):
 
 -If the verify password function does not return true for any of the stored passwords, the login menu will remain up, and error message will be displayed.
 
-**I ran into a problem while coding this section- the function verify_password, when called within the try_login function would crash the program with no error message. 
+**I ran into a problem while coding this section- the function verify_password, when called within the try_login function would crash the program with no error message. **
+
+**Solution**
+-The try function was crashing simply because of a syntax error, was missing an ".text" after textbox widget.
+-The function now works, the program will self.close() if the function ``verify_password(row, enteredpass)`` returns true, otherwise it will print an error message.
+
 
