@@ -88,6 +88,9 @@ def verify_password(stored_password, provided_password):
 
 
 ## Storing Register User information.
+![store](store.png)
+
+
 -A function will be created to store registration information
 
 -When "register" button is pressed, and user information is entered, email and password are hashed with the hashpassword function and stored in a textfile.
