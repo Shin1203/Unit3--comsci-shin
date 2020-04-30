@@ -139,3 +139,28 @@ def verify_password(stored_password, provided_password):
                     print("error")
 ```
 
+## Save button
+-When the user edits a textbox in the tablewidget, they can click a "save" button and implement changes to table to the databse csv file.
+
+-First, the "save" button is disabled in qtdesigner. When the information in the table is changed, the button property .setDisabled() is changed to False, activating the button.
+
+-When the button is pressed, the function save() is called.
+
+-The save() function will take text in the selected table cell, and append the text into the appropriate place in the csv file.
+
+-The text of the current cell is extracted with .currentItem().text()
+
+**An issue occured when trying to save this text into the csv file. .append or .write does not normally work with csv files, and I am having trouble finding a way to "edit" a csv file to save the information. I have tried utilizing csv writer but have so far failed in implementing.**
+
+## Revert button
+-This button is the opposite of the save button, it will reload information from the csv file into the table.
+
+-Same with the save button, the button is disabled until the table is edited.
+
+-To make it revert changes made to the table, I simply call the data_load function
+
+-The code is below
+```
+ def revert(self):
+        self.load_data()
+```
