@@ -127,7 +127,7 @@ def verify_password(stored_password, provided_password):
 -The try function was crashing simply because of a syntax error, was missing an ".text" after textbox widget.
 -The function now works, the program will self.close() if the function ``verify_password(row, enteredpass)`` returns true, otherwise it will print an error message.
 -Code is below.
-``
+```
   def try_login(self):
         enteredpass = (self.username_in.text()+self.password_in.text())
         with open("Password.txt") as passwordfile:
@@ -137,5 +137,5 @@ def verify_password(stored_password, provided_password):
                     self.close()
                 else:
                     print("error")
-``
+```
 
