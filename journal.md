@@ -48,3 +48,9 @@ These classes can be created by user, strings, lists, integers are examples of p
 -Practising python with codingames- learned to use .index and max() combined to print index of biggest number in a list
 -After getting user feedback, updated to final version of user interface of app.
 -updated criterion A and github repository
+
+5/1/2020 Repository Update
+-Week 28, Week 29 missing questions have been addressed and completed
+-Unit 3 project criterias, record of tasks, other files updated. 
+-Unit 3 project almost complete, saving data to csv file function not working.
+-Waiting on creating video until saving function works.
