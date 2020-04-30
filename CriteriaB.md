@@ -38,12 +38,14 @@ In your role of a developer: read the client statement and write a draft version
 -The login menu has been changed from a mainmenuui to a Qdialog, 
 
 -Main menu has been changed to mainmenuui 
+
+-All widgets have been named to mark their functionality and which page they are on to make coding easier.
+
+![login](actuallogin.png)
+![registration](loginmenuprot2.png)
+
 ## login menu basic concept flowchart
 ![flowchart](loginflowchart.png)
 
 ## registration menu basic concept flowchart
 ![regflowchart](registration.png)
--All widgets have been named to mark their functionality and which page they are on to make coding easier.
-
-![login](actuallogin.png)
-![registration](loginmenuprot2.png)
