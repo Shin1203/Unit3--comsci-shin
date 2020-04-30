@@ -122,3 +122,4 @@ def verify_password(stored_password, provided_password):
 -If the verify password function does not return true for any of the stored passwords, the login menu will remain up, and error message will be displayed.
 
 **I ran into a problem while coding this section- the function verify_password, when called within the try_login function would crash the program with no error message. 
+
