@@ -1,5 +1,5 @@
 
-# Criteria B- Development
+# Criteria B- Design
 ---------------
 User login feature steps
 
