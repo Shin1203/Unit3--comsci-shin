@@ -155,6 +155,43 @@ def verify_password(stored_password, provided_password):
 
 **An issue occured when trying to save this text into the csv file. .append or .write does not normally work with csv files, and I am having trouble finding a way to "edit" a csv file to save the information. I have tried utilizing csv writer but have so far failed in implementing.**
 
+
+**solution**
+https://docs.python.org/3/library/csv.html
+https://doc.qt.io/qt-5/qtablewidget.html
+-After a while of attempting to fix this, I finally got this to work, here was the process.
+
+### CSV WRITER
+-To edit a csv file, I needed to use the csv writer, which works differently from regular .write(). I decided to go with an approach, where everytime the user clicks "save" all data that is on the user's table will get read, and the entire database fill will be rewritten. So, even when the user only changes one thing in the table, the entire databse file will be rewritten, except the user wont notice as any unchanged information will stay the same.
+
+-First, a list must be created with all of the data from the qtTableWidget. The order of the data must be row by row, not column by column. To do this I run two inflexible for loops to iterate over the number of column and rows. I made the for loops static numbers with set ranges, as my app has a set number of columns, and a maximum of 30 rows, if the user could create more columns or rows I would have put variables that indicated the number of columns/rows instead. Next, I create a variable "cell" which stores the data of the one cell on the table. ``.item(rowNumber, columnNumber)`` will retrieve the information of a cell with the row and column as arugments. I used the row and column variables from the for loops here to iterate over every cell. If the cell contains data, it will be appended to a "tempdata" list which stores the text of all the cells.
+
+-Next, the list of cell data, "tempdata" is used to overwrite everything in the database csv file. csv.writer is used to achieve this.
+
+-This segment proved especially challenging and time consuimg due to the many small bugs which were hard to fix, as there were no error messages. 
+
+-As an example, it took me a while to figure out that if an empty character is appended into a list, it crashes the program
+
+-Also, I had difficulty with writing in data to a csv file at first, as there were some sources that were more complex than others.
+
+-The code is below
+```
+    def save(self):
+       tempdata = []
+       for col in range(4):
+            for row in range(20):
+                cell = self.list_table.item(row, col)
+                # program will crash if empty space is appended
+                # cell is single space on table
+                if cell is not None:
+                    # tempdata will store all data on table, going left to right, down
+                    tempdata.append(cell.text())
+       print(tempdata)
+       with open("db.csv", 'w', newline='') as csvfile:
+           csvoverwriter = csv.writer(csvfile, delimiter=",")
+           csvoverwriter.writerow(tempdata)
+
+```
 ## Revert button
 -This button is the opposite of the save button, it will reload information from the csv file into the table.
 
