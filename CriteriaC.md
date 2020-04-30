@@ -1,5 +1,6 @@
 # Development
-
+## login menu flowchart
+![flowchart](loginflowchart.png)
 ## Importing user interface into python, creating project.py
 -To start coding the user interfaces created on Qtdesigner, I will have to import the .ui files as python files into my pycharm project.
 
