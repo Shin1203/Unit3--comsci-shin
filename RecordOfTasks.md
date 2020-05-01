@@ -11,3 +11,4 @@
 |8|Develop login screen|App capable of retrieving stored passwords, compare with entered password on loging screen, close window if password correct.|30 min|completed|C|
 |9|Develop save and revert feature for main menu information table|be able to save information to csv file and load csv file information to table|1.5 hours|incomplete|C|
 |10|Complete save feature and app|finishing app|2 hours|complete|C
+|11|Reflection, Criteria D recording and finishing repo|finishing unit 3| 2 hours|complete|D
