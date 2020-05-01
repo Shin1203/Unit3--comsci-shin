@@ -20,13 +20,13 @@ As a member of tech crew, Nabill often suffers due to the lack of organization i
 
 3.) Quantity information can be easily accessed and edited by user
 
-3.) The app allows for a user to record when equipment have been used in the past,
+4.) The app allows for a user to record when equipment have been used in the past,
 
-4.) Equipment information is also neatly stored and easily accessed
+5.) Equipment information is also neatly stored and easily accessed
 
-4.) Condition of each item is also stored and able to be edited in app- is it broken? operational? dirty?
+6.) Condition of each item is also stored and able to be edited in app- is it broken? operational? dirty?
 
-5.) App should be easy to use, and only requires simple instructions
+7.) App should be easy to use, and only requires simple instructions
 
 Developer plan- client will be involved in the entire process of development, giving feedback, wants complaints etc. 
 
