@@ -2,7 +2,7 @@
 # [criteriaC](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaC.md)
 # [criteriaD]()
 # Criteria A- Planning
-
+# Application video()
 
 ## Definition of the problem
 The client is Nabill Nuqman, who is requesting an app for the Tech Crew Club.
