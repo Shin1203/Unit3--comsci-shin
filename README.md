@@ -18,7 +18,7 @@ As a member of tech crew, Nabill often suffers due to the lack of organization i
 
 2.) The app can store info on which items tech crew has/does not have
 
-3.) Quantity information can be easily accessed and edited by user
+3.) Quantity information can be easily accessed and edited by 
 
 4.) The app allows for a user to record when equipment have been used in the past,
 
