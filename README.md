@@ -1,6 +1,6 @@
 # [criteriaB](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaB.md)
 # [criteriaC](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaC.md)
-# [criteriaD]()
+# [criteriaD](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/CriteriaD.md)
 # [Application video](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/zoom_0.mp4)
 # Criteria A- Planning
 
