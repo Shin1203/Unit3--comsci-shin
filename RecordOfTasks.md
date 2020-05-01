@@ -10,3 +10,4 @@
 |7|Develop register screen|app capable of storing user information, buttons functional, inputs read, hash email+password for secure storage, decode hashed stored information|3 hours|completed|C|
 |8|Develop login screen|App capable of retrieving stored passwords, compare with entered password on loging screen, close window if password correct.|30 min|completed|C|
 |9|Develop save and revert feature for main menu information table|be able to save information to csv file and load csv file information to table|1.5 hours|incomplete|C|
+|10|Complete save feature and app|finishing app|2 hours|complete|C
