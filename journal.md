@@ -50,7 +50,12 @@ These classes can be created by user, strings, lists, integers are examples of p
 -updated criterion A and github repository
 
 5/1/2020 Repository Update
--Week 28, Week 29 missing questions have been addressed and completed
 -Unit 3 project criterias, record of tasks, other files updated. 
 -Unit 3 project almost complete, saving data to csv file function not working.
 -Waiting on creating video until saving function works.
+
+5/1/2020 2nd repository update
+-All aplication coding complete, saving function fixed
+-unit 3 reflection, criteria D complete, record of tasks complete
+-Video complete
+-unit 3 completion
