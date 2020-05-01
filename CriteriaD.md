@@ -8,3 +8,6 @@
 |5|Equipment information is neatly stored, easily accesible|yes|The table makes finding information easy and well organized|
 |6|Condition of every equipment can be stored and edited|yes|under "functioning?" condition information can be stored and edited|
 |7|App should be easy to use, only requires basic knowledge and instructions of computer and app|yes|the interface is very friendly and declutterd, and the button interface is very simple with labels. Because the app is very simple the usage is also very simple|
+
+## Summary
+The application works for what it is intended for, but is lacking some usability features that would make it more useful. Mainly the lack of an event window, and the fact that the data can only be stored on one table on one page. But the application still works in its role of storing and editing data and presenting the data in a neat manner. I would say the application mostly met the success criteria, but could have been improved with more features.
