@@ -4,8 +4,6 @@
 # [Application video](https://github.com/Shin1203/Unit3--comsci-shin/blob/master/zoom_0.mp4)
 # Criteria A- Planning
 
-
-
 ## Definition of the problem
 The client is Nabill Nuqman, who is requesting an app for the Tech Crew Club.
 As a member of tech crew, Nabill often suffers due to the lack of organization in keeping track of equipment. Due to the lack of a proper recording system on equipment, tech trew struggles to find equipment and information on equipment when they need it. The client would like a way to keep track of everything tech crew is in possension of, as well as being able to track specific information about the equipments.
